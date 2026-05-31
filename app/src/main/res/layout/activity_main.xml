@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/how_are_you"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/button_bad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mood_bad"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/btn_bad"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/button_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mood_ok"
+        android:textColor="@color/btn_ok_text"
+        android:backgroundTint="@color/btn_ok"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/button_good"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mood_good"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/btn_good"
+        android:layout_marginBottom="48dp" />
+
+    <Button
+        android:id="@+id/button_share"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/share" />
+
+</LinearLayout>

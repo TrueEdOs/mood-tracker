@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mood_bad">#2196F3</color>
+    <color name="mood_ok">#FBC02D</color>
+    <color name="mood_good">#43A047</color>
+    <color name="disabled">#BDBDBD</color>
+    <color name="ic_launcher_background">#5C6BC0</color>
+</resources>

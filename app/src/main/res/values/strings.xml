@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mood Tracker</string>
+    <string name="how_are_you">How are you?</string>
+    <string name="mood_bad">Bad</string>
+    <string name="mood_ok">Ok</string>
+    <string name="mood_good">Good</string>
+    <string name="share">Share</string>
+    <string name="share_title">Share mood log</string>
+    <string name="saved">Saved: %1$s</string>
+    <string name="save_failed">Could not save mood</string>
+    <string name="nothing_to_share">No moods logged yet</string>
+    <string name="share_failed">Could not share file</string>
+    <string name="status_ready">Tap how you feel right now</string>
+    <string name="status_locked">Logged. Available again at %1$s</string>
+</resources>
